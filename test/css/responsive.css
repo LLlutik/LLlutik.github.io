@@ -1,0 +1,319 @@
+@media screen and (max-width: 1200px) {
+    .condition2__text p{
+        padding-bottom: 25px;
+    }
+    .condition3__text p{
+        padding-bottom: 45px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .container h1{
+        font-size: 36px;
+    }
+    .container h2{
+        font-size: 24px;
+    }
+    .container h3{
+        font-size: 18px;
+    }
+    .container h4{
+        font-size: 16px;
+    }
+    p{
+        font-size: 16px;
+    }
+    input{
+        font-size: 16px;
+    }
+    .btn-all{
+        font-size: 16px; 
+    }
+    .header__description p{
+        font-size: 18px;
+    }
+    .container.header__offer__description p, .change__title-block h3, .author__description p{
+        font-size: 18px;
+    }
+    .header__date p, .registration__text__inner p, .registration__text__over p, .registration__form p.registration__form__title, .registration__form input{
+        font-size: 18px;
+    }
+    .header__form p, .registration__form p.registration__form__confidencial, .footer p{
+        font-size: 12px; 
+    }
+    .author__name p{
+        font-size: 24px;
+    }
+    .registration__form button{
+        font-size: 18px;
+    }
+    .footer .footer__support p{
+        font-size: 14px;
+    }
+    .condition2__text p{
+        padding-bottom: 38px;
+    }
+    .condition3__text p{
+        padding-top: 13px;
+        padding-bottom: 65px;
+    }
+    .header__logo{
+        justify-content: center;
+    }
+    .header__points{
+        display: block
+    }
+    .header__points p{
+        font-size: 18px;
+    }
+    img.elem-1{
+        bottom: 40%;
+    }
+    img.elem-2{
+        right: 2%;
+    }
+    .steps::before, .author::before{
+        right: 5%;
+    } 
+}
+@media screen and (max-width: 767px) {
+    .container h1{
+        font-size: 30px;
+    }
+    form input,form button.btn-all{
+        font-size: 16px; 
+    }
+    .header__form form { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;     
+    }
+    .header__form .btn-form{
+        margin: 26px 0 0 0;
+    }
+    .header__date p{
+        max-width: 274px;
+    }
+    .header__date img{
+        object-fit: contain;
+    }
+    .header__send p{
+        max-width: 245px;
+    }
+    .header__send{
+        justify-content: center;
+    }
+    .condition__wrapper.row .condition{
+        max-width: 349px;
+        margin-top: 40px;
+    }
+    .condition__wrapper.row{
+        margin-top: 23px;
+        display: flex;
+        justify-content: center;
+    }
+    .steps__stage-wrapper.row p{
+        padding-top: 30px;
+    }
+    .program__day__point__img img{
+        margin: 0 auto;
+    }
+    .registration__text__title h1, .registration__text__inner p{
+        text-align: center;
+    }
+   .registration__wrapper.row .registration__form{
+        margin-top: 40px;
+        max-width: 400px;
+    }
+    .registration__form p.registration__form__confidencial{
+        padding-bottom: 30px;
+    } 
+    .registration__wrapper.row{
+        display: flex;
+        justify-content: center;
+    }
+    .footer .footline{
+        padding-top: 40px;
+    }
+    .registration__text__inner p, .registration__text__over p, .registration__form p.registration__form__title, .registration__form input, .header__send p{
+        font-size: 14px;
+    }
+    .header__description p{
+        font-size: 14px;
+    }
+    .footer .direct{
+        text-align: right;
+    }
+    .footer .contact p{
+        text-align: center;
+    }
+    .footer .contact div{
+        justify-content: center;
+    }
+    .condition__text p,.condition2__text p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .condition3__text p{
+        padding-top: 13px;
+        padding-bottom: 65px;
+    }
+    .point{
+        margin: 40px auto 0;
+    }
+    .header__points2{
+        margin-top: 0;
+    }
+    .header__points1{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .header__points{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header__points p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .container h1{
+        font-size: 24px;
+    }
+    .container h2{
+        font-size: 20px;
+    }
+    .container h3{
+        font-size: 16px;
+    }
+    .container h4{
+        font-size: 14px;
+    }
+    .container p{
+        font-size: 14px;
+    }
+    form input,form button.btn-all{
+        font-size: 14px;  
+    }
+    .check-not img, .check-ok img{
+        display: block;
+        position: absolute;
+    }
+    .header__offer__description p, .change__title-block h3, .author__description p{
+        font-size: 18px;
+    }
+    .registration__text__inner p, .registration__text__over p, .registration__form p.registration__form__title, .registration__form input, .header__send p{
+        font-size: 12px;
+    }
+    .header__description p{
+        font-size: 12px;
+    }
+    .header__form p, .registration__form p.registration__form__confidencial, .footer p{
+        font-size: 12px; 
+    }
+    .author__name p{
+        font-size: 20px;
+    }
+    .registration__form button{
+        font-size: 16px;
+    }
+    .footer .footer__support p{
+        font-size: 12px;
+    }
+    img.elem-1{
+        left: -10%;
+    }
+    img.elem-2{
+        display: none;
+    }
+    .steps::before, .author::before{
+        right: 0;
+        width: 70px;
+    }  
+    .footer .footline{
+       display: none;
+    }
+    .footer .footer-padding{
+        padding-top: 29px;
+        text-align: center;
+    }
+    .footer  p.tel{
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    .footer__support {
+        
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    .program__title {
+        margin: 65px 0 20px 0;
+    }
+    .program__day2 {
+        margin-top: 45px;
+    }
+    .conditions {
+        margin-top: 65px;
+    }
+    .program__day3__spoints {
+        padding-bottom: 19px;
+    }
+    .conditions__title h2 {
+        padding: 62px 0 29px;
+        margin: 0;
+    }
+    .condition__wrapper.row .condition {
+        margin-top: 20px;
+    }
+    .condition__wrapper.row {
+        padding-bottom: 47px;
+    }
+    .steps__title {
+        padding: 60px 0 25px;
+    }
+    .steps__img {
+        margin-top: 40px;
+    }
+    .steps__stage-wrapper.row {
+        padding-bottom: 60px;
+    }
+    .change__title {
+        margin: 60px 0 22px;
+    }
+    .change__title-block.row {
+        margin-top: 45px;
+    }
+    .change__cta {
+        margin: 53px auto 80px;
+    }
+    .author__title {
+        padding: 60px 0 15px;
+    }
+    .author__photo-point-wrapper.row {
+        margin-top: 26px;
+        padding-bottom: 56px;
+    }
+    .registration__wrapper {
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .container h1{
+        font-size: 22px;
+    }
+    .container h2{
+        font-size: 18px;
+    }
+    .condition2__title p {
+        padding-bottom: 19px;
+    }
+    .condition3__text p {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .author__description p{
+        font-size: 16px;
+    }
+
+}
