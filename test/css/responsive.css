@@ -102,6 +102,9 @@
     .header__send{
         justify-content: center;
     }
+    img.prev{
+        left: 46%;
+    }
     .condition__wrapper.row .condition{
         max-width: 349px;
         margin-top: 40px;
@@ -314,6 +317,9 @@
     }
     .author__description p{
         font-size: 16px;
+    }
+    img.prev{
+        left: 44%;
     }
 
 }
