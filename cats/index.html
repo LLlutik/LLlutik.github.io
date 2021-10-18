@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -39,14 +40,19 @@
                 </div>
                 
                 <div class="header__call">
-                    <!-- <p><span>+544 3490 00000</span><br>Звони скорее!</p> -->
-                    <a href="tel:+544 3490 00000">+544 3490 00000</a>
+                    <p><span><a class="menu-hover" href="tel:+544 3490 00000">+544 3490 00000</a></span><br>Звони скорее!</p>
+                    <a class="menu-hover" href="tel:+544 3490 00000"><img src="img/phone.png"/></a>
+                </div>
+                <div class="header__menu-btn">
+                    <div class="header__menu-row"></div>
+                    <div class="header__menu-row"></div>
+                    <div class="header__menu-row"></div>
                 </div>
             </div>
             <div class="header__title">
-                <h1>
+                <h2>
                     Найдено 349 котов
-                </h1>
+                </h2>
             </div>
             
         </div>
@@ -57,20 +63,171 @@
                 <div class="card__sort__title">
                     <p><span>Сортировать по:</span></p>
                 </div>
-                <div class="card__sort__price">
-                    <p>Цене</p>
-                    <img class="open" src="img/btn.svg" alt="btn">
+                <ul class="card__sort__item item">
+                    <li class="item__inner">
+                        <a class="item__inner__title item-hover" href="#">
+                            <p>Цене</p>
+                            <img class="open" src="img/btn.svg" alt="open">
+                        </a>
+                        <ul class="item__inner__drop-list">
+                            <li><a class="menu-hover"  href="#">По возрастанию</a></li>
+                            <li><a class="menu-hover" href="#">По убыванию</a></li>
+                        </ul>
+                    </li>
+                    <li class="item__inner">
+                        <a class="item__inner__title item-hover" href="#">
+                            <p>Возрасту</p>
+                            <img class="open2" src="img/btn.svg" alt="btn">
+                        </a>
+                        <ul class="item__inner__drop-list">
+                            <li><a class="menu-hover"  href="#">По возрастанию</a></li>
+                            <li><a class="menu-hover" href="#">По убыванию</a></li>
+                        </ul>
+                    </li>
+                </ul>  
+            </div>
+            <div class="card__wrapper">
+                <div class="card__item">
+                    <div class="card__item__img">
+                        <img src="img/cat1.jpg" alt="cat">
+                        <p>-40%</p>
+                        <button class=" btn btn-like"></button>
+                    </div>
+                    
+                    <div class="card__item__description">
+                        <h3>Кот полосатый</h3> 
+                        <div class="character">
+                            <img src="img/line.svg" alt="line">
+                            <p>Коричневый <br> окрас</p>
+                            <p><span>2мес.</span><br>Возраст</p>
+                            <p><span>4</span><br>Кол-во лап</p>
+                        </div>
+                        <h3 class="price">30 000 руб.</h3>
+                    </div>
+                    <button class="btn btn-buy">Купить</button>
                 </div>
-                <div class="card__sort__age">
-                    <p>Возрасту</p>
-                    <img class="open2" src="img/btn.svg" alt="btn">
+                <div class="card__item">
+                    <div class="card__item__img">
+                        <img src="img/cat2.jpg" alt="cat">
+                        <button class=" btn btn-like btn-like2"></button>
+                    </div>
+                    
+                    <div class="card__item__description">
+                        <h3>Кот полосатый</h3> 
+                        <div class="character">
+                            <img src="img/line.svg" alt="line">
+                            <p>Коричневый <br> окрас</p>
+                            <p><span>2мес.</span><br>Возраст</p>
+                            <p><span>4</span><br>Кол-во лап</p>
+                        </div>
+                        <h3 class="price">40 000 руб.</h3>
+                    </div>
+                    <button class="btn btn-buy btn-sold">Продан</button>
+                </div>
+                <div class="card__item">
+                    <div class="card__item__img">
+                        <img src="img/cat3.jpg" alt="cat">
+                        <button class=" btn btn-like"></button>
+                    </div>
+                    
+                    <div class="card__item__description">
+                        <h3>Кот полосатый</h3> 
+                        <div class="character">
+                            <img src="img/line.svg" alt="line">
+                            <p>Коричневый <br> окрас</p>
+                            <p><span>2мес.</span><br>Возраст</p>
+                            <p><span>4</span><br>Кол-во лап</p>
+                        </div>
+                        <h3 class="price">20 000 руб.</h3>
+                    </div>
+                    <button class="btn btn-buy">Купить</button>
+                </div>
+                <div class="card__item">
+                    <div class="card__item__img">
+                        <img src="img/cat1.jpg" alt="cat">
+                        <button class=" btn btn-like"></button>
+                    </div>
+                    
+                    <div class="card__item__description">
+                        <h3>Кот полосатый</h3> 
+                        <div class="character">
+                            <img src="img/line.svg" alt="line">
+                            <p>Коричневый <br> окрас</p>
+                            <p><span>2мес.</span><br>Возраст</p>
+                            <p><span>4</span><br>Кол-во лап</p>
+                        </div>
+                        <h3 class="price">25 000 руб.</h3>
+                    </div>
+                    <button class="btn btn-buy">Купить</button>
+                </div>
+                <div class="card__item">
+                    <div class="card__item__img">
+                        <img src="img/cat3.jpg" alt="cat">
+                        <p>-40%</p>
+                        <button class=" btn btn-like"></button>
+                    </div>
+                    
+                    <div class="card__item__description">
+                        <h3>Кот полосатый</h3> 
+                        <div class="character">
+                            <img src="img/line.svg" alt="line">
+                            <p>Коричневый <br> окрас</p>
+                            <p><span>2мес.</span><br>Возраст</p>
+                            <p><span>4</span><br>Кол-во лап</p>
+                        </div>
+                        <h3 class="price">30 000 руб.</h3>
+                    </div>
+                    <button class="btn btn-buy">Купить</button>
+                </div>
+                <div class="card__item">
+                    <div class="card__item__img">
+                        <img src="img/cat2.jpg" alt="cat">
+                        <button class=" btn btn-like btn-like2"></button>
+                    </div>
+                    
+                    <div class="card__item__description">
+                        <h3>Кот полосатый</h3> 
+                        <div class="character">
+                            <img src="img/line.svg" alt="line">
+                            <p>Коричневый <br> окрас</p>
+                            <p><span>2мес.</span><br>Возраст</p>
+                            <p><span>4</span><br>Кол-во лап</p>
+                        </div>
+                        <h3 class="price">10 000 руб.</h3>
+                    </div>
+                    <button class="btn btn-buy btn-sold">Продан</button>
                 </div>
             </div>
+            <div class="button__btn-more">
+                <button class="btn btn-more">Показать еще 20</button>
+            </div>
+            
+            <div class="card__btn-up">
+                <button class="btn btn-up"><img src="img/up.svg" alt="up"></button>
+            </div>
+            
         </div>
     </section>
     <footer class="footer">
         <div class="container">
-
+            <div class="footer__inner">
+                <div class="footer__offer">
+                    <h1>Успей купить!</h1>
+                    <p>Подпишись и успей словить все акции</p>
+                </div>
+                <div class="footer__form">
+                    <form action="#">
+                        <div class="input">
+                            <input type="email" name="email" placeholder="Email" required>
+                            <button class="btn btn-buy btn-submit" type="submit">Подписаться</button>
+                        </div>
+                        <div class="checkbox">
+                            <p><input type="checkbox" name="agree" value="agree" checked><span>Подписаться на новости</span> </p>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
         </div>
     </footer>
 </body>

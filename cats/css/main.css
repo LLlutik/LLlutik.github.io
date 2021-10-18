@@ -1,6 +1,6 @@
 html{
     box-sizing: border-box;
-    font-family: 'Montserrat', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     padding: 0;
     margin: 0;
@@ -19,7 +19,7 @@ body,h1, h2, h3, p, ul, li{
     margin: 0;
 }
 a{
-    color: #fff;
+    color: #000;
     display: inline-block;
     text-decoration: none;
 }
@@ -29,11 +29,32 @@ ul{
 li{
     display: inline-block;
 }
+/* p{
+    font-size: 18px;
+} */
 h1{
-    font-size: 38px;
+    font-size: 48px;
     font-weight: bold;
 }
-
+h2{
+    font-size: 38px;
+}
+h3{
+    font-size: 24px;
+}
+img{
+    padding: 0;
+    margin: 0;
+}
+.btn{
+    display: block;
+    border: none;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 /* Header */
 .header{
@@ -76,7 +97,8 @@ h1{
     padding-right: 52px;
 }
 .menu-hover:hover{
-    color:rgb(253, 182, 48)
+    color:rgb(253, 182, 48);
+    transition: all 0.3s;
 }
 .menu-hover:active{
     text-decoration: underline;
@@ -85,10 +107,32 @@ h1{
 .header__call{
     text-align: right;
     padding-top: 20px;
+    color: #fff;
+}
+.header__call img{
+    display: none;
+    width: 23px;
+    height: 23px;
+    object-fit: cover;
 }
 .header__call span{
     font-size: 24px;
     font-weight: bold;
+
+}
+.header__call span a{
+    color: #fff;;
+}
+.header__menu-btn{
+    width: 30px;
+    display: none;
+}
+.header__menu-row{
+    width: 100%;
+    height: 4px;
+    margin-bottom: 5px;
+    background-color: #fff;
+
 }
 .header__title{
     padding: 36px 0 66px;
@@ -96,25 +140,247 @@ h1{
 
 /* Card */
 .card__sort{
-    padding-top: 37px;
+    padding-top: 27px;
     display: flex;
 }
 .card__sort__title span{
     font-weight: bold;
 }
 .card__sort__title{
-    padding-right: 48px;
+    padding-right: 38px;
+    padding-top: 10px;
 }
-.card__sort__price{
+.card__sort__item{
+    display: inline-block;
+}
+.item__inner{
+    position: relative;
+}
+
+.item__inner__title{
     display: flex;
+    margin-right: 45px;
+    border-top: 2px solid transparent;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;  
 }
 .open{
     margin-left: 14px;
 }
-.card__sort__age{
-    margin-left: 55px;
-    display: flex;
+.item__inner__drop-list{
+    display: none;
+    position: absolute;
+    width: 180px;
+    background-color: #fef;
+    padding-bottom: 15px;
+    transition: all 0.3s;
+    z-index: 1;
+}
+.item__inner__drop-list li{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.item__inner:hover .item__inner__drop-list{
+    display: block;
+}
+.item__inner:hover >.item-hover{
+    color:rgb(253, 182, 48);
+    border-top: 2px solid rgb(253, 182, 48);
+    background-color: #fef;
 }
 .open2{
     margin-left: 24px;
+}
+.card__wrapper{
+    padding-top: 38px;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card__item{
+    max-width: 380px;
+    margin-right: 10px;
+}
+.card__item__img{
+    position: relative;
+    overflow: hidden;
+}
+.card__item__img img{
+    width: 100%;
+    height: auto;
+    transition: all 1s ease;
+}
+.card__item__img img:hover{
+    transform: scale(1.05,1.05);
+    transition: all 1s ease;
+}
+.card__item__img p{
+    position: absolute;
+    width: 78px;
+    height: 39px;
+    top: 34px;
+    left: 38px;
+    padding-left: 18px;
+    padding-top: 9px;
+    color: #fff;
+    background-color: #E52D2D;
+    border-radius: 10px;
+}
+.btn-like{
+    background: url(../img/like.svg) no-repeat top right;
+    opacity: 0.5;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    top: 34px;
+    right: 32px;
+}
+.btn-like2{    
+    opacity: 1;
+}
+.btn-like:hover{
+    opacity: 0.7;
+}
+.btn-like2:hover{
+    opacity: 0.3;
+}
+.card__item__description{
+    background-color: #F3F3F3;
+    padding-left: 29px;
+    padding-top: 29px;
+    margin-top: -0.22em;
+}
+.character{
+    padding: 24px 50px 26px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    
+}
+.character span{
+    font-size: 16px;
+    font-weight: bold;
+}
+.price{
+    padding-bottom: 29px;
+}
+.btn-buy{
+    
+    width: 100%;
+    height: 65px;
+    background-color: #6EBBD3;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 27px;
+    
+}
+.btn-buy:hover{
+    background-color: #11a6d3;
+    transition: all 0.3s ease;
+}
+.btn-sold{
+    background-color: #1F2021; 
+}
+.btn-sold:hover{
+    background-color: #000;
+    
+}
+.button__btn-more{
+    max-width: 380px;
+    margin: 0 auto;
+}
+.btn-more{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #CACACA;
+    margin: 45px auto 0;
+    width: 100%;
+    height: 65px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.btn-more:hover{
+    background-color: #ebf6fa;;
+}
+
+.card__btn-up{
+    position: relative;
+    height: 68px;
+}
+.btn-up{
+    position: absolute;
+    padding: 0;
+    right: 0;
+    top:-30px;
+}
+.btn-up:hover{
+    filter: brightness(110%);
+    transition: all 0.3s ease;
+}
+
+/* Footer */
+
+.footer__inner{
+    background-color: #1F2021;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__offer{
+    box-sizing: border-box;
+    max-width: 370px;
+    margin: 83px 0 92px 80px;
+}
+.footer__offer p{
+    font-size: 28px;
+    padding-top: 26px;
+    line-height: 0.97em;
+}
+.footer__form{
+    margin: 91px 80px 80px 0;
+}
+.input{
+    display: flex;
+}
+.footer__form input{
+    width: 300px;
+    height: 65px;
+    border-radius: 10px;
+    margin-right: 16px;
+    padding-left: 33px;
+}
+.btn-submit{
+    width: 250px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: #6EBBD3;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+input[type=checkbox] {
+    background-image: url(../img/notcheck.svg);
+    background-size: cover;
+    margin: 0 18px 0 0 ;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 18px;
+    width: 18px;
+    padding: 0;
+    border-radius: 3px;
+}
+input[type=checkbox]:checked {
+    background-image: url(../img/check.svg);
+    background-size: cover;
+}
+input[type=checkbox]:hover{
+	filter: brightness(110%);
+}
+.footer__form p{
+    font-size: 14px;
+    box-sizing: border-box;
 }
