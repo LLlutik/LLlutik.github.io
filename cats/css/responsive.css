@@ -17,10 +17,37 @@
 @media screen and (max-width: 920px){
     .header__menu{
         display: none;
+        position: absolute;
+        z-index: 2;
+        width: 111px;
+        right: 0px;
+        top: 45px;
+        background-color: rgb(17, 1, 1,0.85);
+
+        padding: 55px 5px 5px 15px;
+        
+    }
+    .menu-close {
+        position: absolute;
+        top: 0px;
+        right: 15px;
+        background: none;
+        border: none;
+        font-size: 28px;
+        font-weight: 700;
+        color: #fff;
     }
     .header__menu-btn{
         display: block;
     }
+    .header__menu li {
+		
+		padding-bottom: 10px;
+	}
+
+
+
+
     .footer__inner{
         flex-direction: column;
         justify-content: center;
