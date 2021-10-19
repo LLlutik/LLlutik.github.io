@@ -22,12 +22,12 @@
         width: 111px;
         right: 0px;
         top: 45px;
+        font-size: 20px;
         background-color: rgb(17, 1, 1,0.85);
-
         padding: 55px 5px 5px 15px;
-        
     }
     .menu-close {
+        display: block;
         position: absolute;
         top: 0px;
         right: 15px;
@@ -41,13 +41,8 @@
         display: block;
     }
     .header__menu li {
-		
 		padding-bottom: 10px;
 	}
-
-
-
-
     .footer__inner{
         flex-direction: column;
         justify-content: center;

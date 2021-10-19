@@ -84,6 +84,9 @@ img{
 .header__logo{
     padding-right: 120px;
 }
+.menu-close {
+    display: none;
+}
 .header__menu a{
     color: #fff;
 }
@@ -148,8 +151,7 @@ img{
     font-weight: bold;
 }
 .card__sort__title{
-    padding-right: 38px;
-    padding-top: 10px;
+    padding: 10px 38px 0 0;
 }
 .card__sort__item{
     display: inline-block;
@@ -162,9 +164,7 @@ img{
     display: flex;
     margin-right: 45px;
     border-top: 2px solid transparent;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;  
+    padding: 10px 10px 0 10px; 
 }
 .open{
     margin-left: 14px;
@@ -179,8 +179,7 @@ img{
     z-index: 1;
 }
 .item__inner__drop-list li{
-    padding-left: 10px;
-    padding-top: 20px;
+    padding: 20px 0 0 10px;
 }
 .item__inner:hover .item__inner__drop-list{
     display: block;
@@ -223,8 +222,7 @@ img{
     height: 39px;
     top: 34px;
     left: 38px;
-    padding-left: 18px;
-    padding-top: 9px;
+    padding: 9px 0 0 18px;
     color: #fff;
     background-color: #E52D2D;
     border-radius: 10px;
@@ -238,6 +236,10 @@ img{
     top: 34px;
     right: 32px;
 }
+.red{
+    background: url(../img/red.svg) no-repeat top right;
+
+}
 .btn-like2{    
     opacity: 1;
 }
@@ -249,8 +251,7 @@ img{
 }
 .card__item__description{
     background-color: #F3F3F3;
-    padding-left: 29px;
-    padding-top: 29px;
+    padding: 29px 0 0 29px;
     margin-top: -0.22em;
 }
 .character{
