@@ -1,41 +1,9 @@
-/* Basics */
-body {
-    Margin: 0;
-	padding: 0;
-	min-width: 100%;
-	background-color: #ffffff;
-}
-table {
-	border-spacing: 0;
-	font-family: sans-serif;
-	color: #333333;
-}
-td {
-	padding: 0;
-}
-img {
-	border: 0;
-}
-.wrapper {
-	width: 100%;
-	table-layout: fixed;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-}
-.webkit {
-	max-width: 600px;
-}
 
-.outer {
-    Margin: 0 auto;
-	width: 100%;
-	max-width: 600px;
-    background-image: url(header.png);
-    background-position:center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
+
+
+
 /* Windows Phone Viewport Fix */
-@-ms-viewport { 
+/* @-ms-viewport { 
 	width: device-width; 
-}
+} */
