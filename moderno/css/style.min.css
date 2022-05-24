@@ -30,9 +30,12 @@ body {
   line-height: 24px;
   color: #546e7a;
   min-height: 100vh;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  /* display: grid;
   grid-template-rows: min-content 1fr min-content;
-  align-content: start;
+  align-content: start; */
+
 }
 
 .container {
@@ -1018,6 +1021,7 @@ body {
 
 .footer {
   background-color: #263238;
+  margin-top: auto;
 }
 .footer__inner {
   display: -webkit-box;
