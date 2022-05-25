@@ -59,7 +59,11 @@
    position: relative;
  }
 }
-
+@media (max-width: 700px) {
+  .product__item {
+    margin: 0 auto;;
+ }
+}
 @media (max-width: 640px) {
   .notification__box, .message__box {
     display: none;

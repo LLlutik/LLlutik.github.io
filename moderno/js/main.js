@@ -28,15 +28,15 @@ $(function () {
 
     }, {
 
-      breakpoint: 600,
+      breakpoint: 960,
       settings: {
         slidesToShow: 2,
         dots: true
       }
-
+    
     }, {
 
-      breakpoint: 300,
+      breakpoint: 700,
       settings: "unslick" // destroys slick
 
     }]
