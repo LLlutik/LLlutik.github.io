@@ -1,0 +1,251 @@
+@media (max-width:1750px) {
+    .wrapper::before{
+        display: none;
+    }
+    .wrapper::after{
+        display: none;
+    }
+}
+@media (max-width:1415px) {
+    .offer-wrapper{
+        
+        flex-wrap: wrap;
+    }
+    .offer-img{
+        margin: 0px auto;
+        order: -1;
+    }
+    .offer-text {
+        width: 100%;
+    }
+}
+@media (max-width:1400px) {
+    .burger-menu{
+        cursor: pointer;
+        margin-right: 30px;
+    }
+    .burger-menu div{
+        height: 3px;
+        width: 30px;
+        background-color: var(--basic-text);
+    }
+    .burger-menu div + div{
+        margin-top: 5px;
+    }
+    .main-nav{
+        display: none;
+    }
+    .logo{
+        margin-right: 0px;
+        display: block;
+        order: 1;
+    }
+    .benefits-wrapper{
+        column-gap: 50px;
+    }
+}
+@media (max-width:1110px) {
+    .phone span{
+        display: none;
+    }
+    .enter {
+        margin-left: 0px;
+       
+    }
+    .phone::before {
+        top: -17px;
+        left: -67px;
+        width: 35px;
+        height: 35px;
+        background-size: 35px;
+    }
+    .history-item{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .history-text{
+        width: 100%;
+    }
+    .market{
+        order: 0;
+    }
+    .history-item:nth-child(2){
+        padding-top: 20px;
+    }
+    .benefits-wrapper{
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+    .breadcrumbs__inner {
+        padding: 50px 0px 0px;
+    }
+    .history {
+        margin-top: 70px;
+    }
+    .title{
+        margin-bottom: 40px;
+    }
+    .benefits {
+        margin-top: 70px;
+    }
+    .benefits-desc {
+        margin: 0 auto 50px;
+    }
+}
+@media (max-width: 850px) {
+    .logo img{
+        object-fit: cover;
+        width: 221px;
+        height: 74px;
+        object-position: left center;  
+    }
+    .breadcrumbs__inner {
+        padding: 20px 0px 20px;
+    }
+    .offer-text h1{
+        font-size: 40px;
+        line-height: 56px;
+        margin: 35px 0 22px;
+    }
+    .price span {
+        font-size: 35px;
+    }
+    .page-body {
+        font-size: 18px;
+    }
+    .title {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .history-text {
+        font-size: 18px;
+    }
+    .benefits-desc {
+        font-size: 18px;
+    }
+    .benefit-title {
+        font-size: 20px;
+    }
+    .benefit-text {
+        font-size: 16px;
+    }
+    .benefits-title span::after {
+        left: -64px;
+        width: 203px;
+    }
+}
+@media (max-width: 740px) {
+
+    .benefits-wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 615px) {
+    .enter span{
+        display: none;
+    }
+    .enter{
+        width: 43px;
+        padding-left: 0px;
+    }
+    .enter::before {
+        left: 9px;
+    }
+    .header__box::after {
+        height: 15px;
+    }
+    .offer-text h1 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .price::before {
+        left: 18px;
+        width: 40px;
+        height: 40px;
+        background-size: 40px;
+    }
+    .title {
+        font-size: 26px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+    .benefits-title span::after {
+        left: -43px;
+        width: 142px;
+    }
+    .history {
+        margin-top: 35px;
+    }
+    .benefits {
+        margin-top: 35px;
+    }
+    .benefits-desc {
+        margin: 0 auto 30px;
+    }
+    .benefits-wrapper {
+        gap: 30px;
+    }
+    .benefit-title {
+        margin: 14px 0 1px;
+    }
+    .benefit-text {
+        font-size: 16px;
+        line-height: 140%;
+        
+    }
+}
+@media (max-width: 440px) {
+    .logo img{
+        height: 54px;
+        width: 169px;
+    }
+    .phone::before {
+        top: -12px;
+        left: -40px;
+        width: 24px;
+        height: 24px;
+        background-size: 24px;
+    }
+    .enter::before {
+        top: 4px;
+        left: 3px;
+    }
+    .enter { 
+        height: 30px;
+        width: 30px;
+    }
+    .burger-menu {
+        margin-right: 15px;
+    }
+    .page-body,.history-text,.benefits-desc {
+        font-size: 17px;
+    }
+    .offer-desc p,.history-text,.benefits-desc {
+        line-height: 140%;
+    }
+    .offer-text h1 {
+        font-size: 26px;
+        line-height: 36px;
+        margin: 35px 0 10px
+    }
+    .price span {
+        font-size: 28px;
+    }
+    .price::before {
+        left: 23px;
+        width: 34px;
+        height: 34px;
+        background-size: 34px;
+    }
+    .offer-desc {
+        margin-top: 15px;
+    }
+    .title {
+        font-size: 22px;
+        line-height: 140%;
+    }
+    .benefits-title span::after {
+        left: -37px;
+        width: 123px;
+    }
+}
