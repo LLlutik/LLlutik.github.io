@@ -23,6 +23,7 @@
     .burger-menu{
         cursor: pointer;
         margin-right: 30px;
+        
     }
     .burger-menu div{
         height: 3px;
@@ -32,8 +33,38 @@
     .burger-menu div + div{
         margin-top: 5px;
     }
-    .main-nav{
+
+    .nav-box{
+        
         display: none;
+        position: absolute;
+        background: rgba(0,0,0,0.8);
+        width: 400px;
+        height: 250px;
+        z-index: 2;
+        top: -21px;
+        left: -15px;
+        padding-top: 40px;
+    }
+    .menu-close {
+        display: block;
+        position: absolute;
+        z-index: 3;
+        top: 49px;
+        left: 15px; 
+        background: none;
+      }
+    
+    .main-nav a{
+        color: #fff;
+    }
+    .main-nav li{
+        display: block;
+        margin: 50px auto;
+        text-align: center;
+    }
+    .main-nav li:first-child{
+        margin-right: 0px;
     }
     .logo{
         margin-right: 0px;
@@ -132,8 +163,10 @@
     .benefits-title span::after {
         left: -64px;
         width: 203px;
+        bottom: -8px;
+        height: 5px;
     }
-}
+    }
 @media (max-width: 740px) {
 
     .benefits-wrapper{
@@ -172,6 +205,8 @@
     .benefits-title span::after {
         left: -43px;
         width: 142px;
+        bottom: -5px;
+        height: 3px;
     }
     .history {
         margin-top: 35px;
@@ -249,3 +284,8 @@
         width: 123px;
     }
 }
+@media (min-width: 1401px) {
+    .nav-box {
+      display: block !important;
+   }
+  }

@@ -121,6 +121,13 @@ img {
     background-color: #C4C4C4;
     opacity: 0.3;
 }
+.menu-close {
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 30px;
+  }
 .main-menu{
     display: flex;
     align-items: center;
